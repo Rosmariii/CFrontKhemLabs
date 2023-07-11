@@ -47,4 +47,4 @@ Create a simple task management application using React and TypeScript. The appl
 
 Create a basic user interface with a form to add a new task, list all the tasks created with the option of editing or removing each one.
 
-The task should have a title, description, optional image (can be an URL or an uploaded image), and date (optional, if not selected the current date plus ten minutes).
+The task should have a title, description, optional image (an URL to an image), and date (optional, if not selected the current date).

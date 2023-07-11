@@ -1,46 +1,50 @@
-# Getting Started with Create React App
+# Khemlabs Developer Skills Assessment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+We all know that nowadays we can use stackoverflow and chat-gpt to do part of our work. And although that will be welcome on a day-to-day basis, this exam is designed so that we can understand if your level and knowledge match a "Junior" profile, for this reason it should not be necessary for you to access these tools at any time.
 
-## Available Scripts
+## Environment requirements
 
-In the project directory, you can run:
+- node >= 18
+- yarn _(you can use NPM if you want, but as the project was created with yarn we encourage you to use it)_
 
-### `npm start`
+## Example
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+If you run "npm run example" or "yarn example" and go to [localhost:3002](http://localhost:3002/) you will see an example of the final work, **YOU DO NOT NEED** to copy the styling or code, it's just there so you can check that all the functionalities are present in your version.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Objective
 
-### `npm test`
+Evaluate the knowledge and proficiency of a junior developer in React, TypeScript, React state management, and version control manager
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Instructions
 
-### `npm run build`
+- Clone this repository
+- Create your own branch named **candidate/your-name**
+- Complete the exercise below by following the requirements and guidelines provided
+- Commit your code and push it to your own branch
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Exercise
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Create a simple task management application using React and TypeScript. The application should allow users to add, update, and delete tasks. You can use any open source library or component of your choice.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Requirements
 
-### `npm run eject`
+- Use React and TypeScript to build the application.
+- Use the npm ecosystem to manage dependencies.
+- Ensure the application is responsive and works well on different screen sizes.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### Desired
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Apply best practices in code organization and maintainability.
+- Include appropriate validation and error handling.
+- Style it using tailwind
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### Extra
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Implement state management using Redux
+- Use local storage
 
-## Learn More
+### Guidelines
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Create a basic user interface with a form to add a new task, list all the tasks created with the option of editing or removing each one.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The task should have a title, description, optional image (can be an URL or an uploaded image), and date (optional, if not selected the current date plus ten minutes).

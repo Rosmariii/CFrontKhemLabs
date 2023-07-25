@@ -17,10 +17,9 @@ Evaluate the knowledge and proficiency of a junior developer in React, TypeScrip
 
 ## Instructions
 
-- Clone this repository
-- Create your own branch named **candidate/your-name**
+- Fork this repository into your own repo
 - Complete the exercise below by following the requirements and guidelines provided
-- Commit your code and push it to your own branch
+- Commit your code and push it and share a link to you repo
 
 ### Exercise
 

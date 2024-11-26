@@ -1,0 +1,120 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #a8edea, #fed6e3);
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h2 {
+    margin: 20px 0;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  /* Estilos para el formulario */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  input,
+  textarea,
+  button {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 400px;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    resize: none;
+    height: 80px;
+  }
+  
+  button {
+    width: 50%;
+    max-width: 200px;
+    background-color: #2e518b;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #1c365e;
+  }
+  
+  /* Estilos para las tareas */
+  .containerTarea {
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 500px;
+    border-radius: 10px;
+    background-color: rgb(249, 164, 164);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .containerTareaCompletada {
+    background-color: rgb(79, 208, 79);
+  }
+  
+  .containerTarea h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .containerTarea p {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .containerTarea img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px 0;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  
+  button#completar,
+  button#edit,
+  button#delete {
+    margin: 5px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+  }
+  
+  button#completar:hover {
+    background-color: rgb(54, 175, 54);
+  }
+  
+  button#delete:hover {
+    background-color: rgb(248, 116, 116);
+  }
+  
+  button#edit:hover {
+    background-color: #ffc107;
+  }
+  
+  /* Para asegurar que los elementos no se superpongan */
+  form input,
+  form textarea,
+  form button {
+    margin-bottom: 10px;
+  }
+  
